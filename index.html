@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <h1>Sorozat bekérése: </h1>
+    <p>
+      <label for="cim">Cím:
+        <input type="text" name="cim" id="cim"><br>
+      </label>
+    </p>
+    <p>
+    <label for="epizodokDb">Epizódok száma:
+      <input type="number" name="epizodokDb" id="epizodokDb"><br>
+    </label>
+  </p>
+    <p>
+    <label for="rendezoNev">Rendező neve:
+      <input type="text" name="rendezoNev" id="rendezoNev"><br>
+    </label>
+  </p>
+  <p id="errorUzenet"></p>
+    <button id="buttonBekuld">Beküldés</button>
+    <br><br><br><br>
+    <ol id="lista">
+      
+    </ol>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
